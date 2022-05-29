@@ -1,0 +1,13 @@
+* {
+    margin: 30px;
+    display: block;
+}
+
+#menu-outer {
+    background-color: lightblue;
+    float: inline-end;
+}
+
+header + h1 {
+    float: inline-start;
+}
