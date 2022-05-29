@@ -1,13 +1,62 @@
-* {
-    margin: 30px;
+
+body {
+    max-width: 100%;
+    margin: 24px auto;
+    display: block;
+    align-content: center;
+    background-color: grey;
+}
+
+header { 
+    display: inline-block;
+    margin-bottom: 20px;
+    background-color: aqua;
+    width: 100%;
+    border-style: dashed;
+    border-color: black;
+}
+header > h1 {
+    display: inline-block;
+    background-color: blueviolet;
+    margin-left: 50px;
+
+}
+header > .table {
+    background-color: lightsalmon;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 60px;
+    list-style-type: none;
+
+}
+.image {
+    width: 30px;
+    float:inline-start;
+}
+
+a { 
+    text-decoration: none;
+    font-size: 24px
+}
+
+li {
+   display: inline;
+}
+
+.About-Mwa {
+   width: 30%;
+   margin-left: 50px;
+   display: inline-block;
+   background-color: lightcoral;
+}
+
+article + h2 {
+    float: inherit;
+}
+
+footer { 
+    text-align: center;
+    margin: 40px 0 20px;
     display: block;
 }
 
-#menu-outer {
-    background-color: lightblue;
-    float: inline-end;
-}
-
-header + h1 {
-    float: inline-start;
-}
