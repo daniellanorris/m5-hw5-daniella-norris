@@ -1,62 +1,84 @@
 
-body {
-    max-width: 100%;
-    margin: 24px auto;
-    display: block;
-    align-content: center;
-    background-color: grey;
+* {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-image: repeating-radial-gradient(circle at center, lightskyblue 0, blue, pink 30px);
+}
 header { 
     display: inline-block;
     margin-bottom: 20px;
-    background-color: aqua;
+    background-color: lightskyblue;
     width: 100%;
     border-style: dashed;
     border-color: black;
 }
 header > h1 {
     display: inline-block;
-    background-color: blueviolet;
-    margin-left: 50px;
+    background-color: pink;
+    margin: 0 50px;
+    padding: 30px;
 
 }
 header > .table {
-    background-color: lightsalmon;
     display: inline-block;
-    margin-top: 30px;
-    margin-right: 60px;
+    padding-left: 50px;
     list-style-type: none;
-
+    padding-right: 20px;
 }
-.image {
-    width: 30px;
-    float:inline-start;
+img {
+    width: 30%;
+    float: left;
+    margin: 0 10px 10px 10px;
+    box-shadow: 1px 1px 10px 5px grey;
 }
 
 a { 
     text-decoration: none;
-    font-size: 24px
+    font-size: 24px;
 }
 
 li {
-   display: inline;
-}
-
-.About-Mwa {
-   width: 30%;
-   margin-left: 50px;
    display: inline-block;
-   background-color: lightcoral;
 }
 
-article + h2 {
-    float: inherit;
+ .About-Mwa {
+   width: 40%;
+   margin: 50px 5px 50px 200px;
+   border: 0 auto;
+   display: inline-block;
+   background-color: pink;
 }
 
-footer { 
+#about-header {
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#text-body {
+    margin: 10px;
+}
+ .contact-section {
+    width:30%;
+    float: right;
+    margin: 50px 70px 50px 5px;
+    background-color: pink;
     text-align: center;
-    margin: 40px 0 20px;
+}
+
+body > footer { 
+    text-align: center;
     display: block;
+    background-color: white;
+    border-top: 10px;
+    border-color: blue;
+    border-style: double;
+    padding-bottom: 10px;
+    font-size: small;
 }
 
