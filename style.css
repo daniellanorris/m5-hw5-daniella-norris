@@ -78,7 +78,7 @@ p {
 }
 
 main {
-    margin: 0 0px 0 100;
+    margin: 0 300px 0 300px;
     display: inline-block;
 }
 
@@ -90,7 +90,7 @@ main {
 }
 
 .About-Mwa {
-    margin-left: 300px;
+    margin-left: 0 auto;
     background-color: pink;
     float:left;
     width: 500px;
