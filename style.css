@@ -21,7 +21,7 @@ header {
 }
 header > h1 {
     background-color: pink;
-    margin: 0 10px 0px 100px;
+    margin: 0 10px 0px 300px;
     padding: 30px;
     float: left;
 }
@@ -90,7 +90,7 @@ main {
 }
 
 .About-Mwa {
-    margin-left: 100px;
+    margin-left: 300px;
     background-color: pink;
     float:left;
     width: 500px;
